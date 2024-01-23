@@ -36,3 +36,7 @@ Make sure to deploy the output of `remix build`
 
 - `build/`
 - `public/build/`
+
+### Notes
+
+1. Add `"verbatimModuleSyntax": true,` in tsconfig.json so auto import differentiates between type and value imports.
